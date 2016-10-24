@@ -1,6 +1,6 @@
 from tkinter import *
 
-import random #random library
+import random #random library test
 
 class Random( Frame ):
   def __init__( self ):
