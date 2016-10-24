@@ -22,7 +22,7 @@ class Random( Frame ):
        self.label2 = Label( self, text=num, width=22, height=22)
        self.label2.grid(row=3, columnspan=10, sticky=W+E+N+S)
 
-   self.button4 = Button( self,text='Generate numbers',command=generator )
+   self.button4 = Button( self,text='Generate numbers',command=generator)
    self.button4.grid( row = 2,column=1, sticky = W+E+N+S )
    
 def main():
